@@ -1,4 +1,4 @@
-<h2>React Portfolio #1</h2>
+<h2>Portfolio onepage #React</h2>
 
 `npm install`<br />
 `npm start`<br />
