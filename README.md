@@ -1,8 +1,8 @@
 <h2 style="color: #f09;">React Portfolio #1</h2>
 
 
-### `npm install`
-### `npm start`
+`npm install`
+`npm start`
 http://localhost:3000
 
 Contact.jsx: <br>
@@ -11,3 +11,6 @@ https://www.emailjs.com/ <br>
 
 Icons:<br>
 `npm install react-icons --save`
+
+![Screenshot](screenshot.png)
+![Screenshot](screenshot-2.png)
