@@ -1,4 +1,4 @@
-<h2 style="color: #f09;">React Portfolio #1</h2>
+<h2>React Portfolio #1</h2>
 
 
 ### `npm install`
