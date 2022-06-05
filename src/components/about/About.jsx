@@ -11,7 +11,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={ME} alt="Me portrait" />
+                        <img src={ME} alt="Me portrait"/>
                     </div>
                 </div>
                 <div className="about__content">
@@ -24,7 +24,6 @@ const About = () => {
                             <small>University of Helsinky - Elements of AI</small>
                         </article>
                     </div>
-
                     <p>If you have any questions, contact me.</p>
                     <a href="/#contact" className="btn btn-primary">
                         Let's Talk

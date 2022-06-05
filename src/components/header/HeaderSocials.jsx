@@ -20,7 +20,7 @@ const HeaderSocials = () => {
             >
                 <FaGithub />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+            <a href="https://instagram.com/rabbit.binary/" target="_blank" rel="noreferrer">
                 <GrInstagram />
             </a>
         </div>

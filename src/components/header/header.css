@@ -135,7 +135,7 @@ header {
 /* ########## Media Queries (Medium devices) ########## */
 
 @media screen and (max-width: 1024px) {
-  .container {
+  .header {
     height: 68vh;
   }
 }
@@ -155,9 +155,9 @@ header {
 
 @media screen and (max-width: 400px) {
   .me {
-    left: calc(50% - 8rem);
+    left: calc(50% - 7.5rem);
     margin-top: 3rem;
-    height: 16rem;
-    width: 16rem;
+    height: 15rem;
+    width: 15rem;
   }
 }

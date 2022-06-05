@@ -1,6 +1,19 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaBootstrap } from "react-icons/fa";
+import { DiReact } from "react-icons/di";
+import { DiSass } from "react-icons/di";
+import { DiWordpress } from "react-icons/di";
+import { ImNpm } from "react-icons/im";
+import { GrMysql } from "react-icons/gr";
+import { SiMongodb } from "react-icons/si";
+import {BsGithub } from "react-icons/bs";
+import { RiCodeBoxFill } from "react-icons/ri";
+import { SiFirebase } from "react-icons/si";
+import { CgFigma } from "react-icons/cg"
 
 const Experience = () => {
     return (
@@ -12,49 +25,49 @@ const Experience = () => {
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <AiFillHtml5 className="experience__details-icon" />
                             <div>
                                 <h4>HTML</h4>
                                 <small className="text-light">Advanced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <DiCss3 className="experience__details-icon" />
                             <div>
                                 <h4>CSS</h4>
                                 <small className="text-light">Advanced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <IoLogoJavascript className="experience__details-icon" />
                             <div>
                                 <h4>JavaScript</h4>
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <FaBootstrap className="experience__details-icon" />
                             <div>
                                 <h4>Bootstrap</h4>
                                 <small className="text-light">Advanced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <DiReact className="experience__details-icon" />
                             <div>
                                 <h4>React</h4>
                                 <small className="text-light">Elementary</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <DiSass className="experience__details-icon" />
                             <div>
                                 <h4>Sass</h4>
                                 <small className="text-light">Advanced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <DiWordpress className="experience__details-icon" />
                             <div>
                                 <h4>Wordpress</h4>
                                 <small className="text-light">Advanced</small>
@@ -66,33 +79,45 @@ const Experience = () => {
                     <h3>Other Experience</h3>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <ImNpm className="experience__details-icon" />
                             <div>
                                 <h4>Npm</h4>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <GrMysql className="experience__details-icon" />
                             <div>
                                 <h4>MySQL</h4>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <SiMongodb className="experience__details-icon" />
                             <div>
                                 <h4>MongoDB</h4>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <BsGithub className="experience__details-icon" />
                             <div>
                                 <h4>Git</h4>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
+                            <RiCodeBoxFill className="experience__details-icon" />
                             <div>
                                 <h4>XML</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <SiFirebase className="experience__details-icon" />
+                            <div>
+                                <h4>Firebase</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <CgFigma className="experience__details-icon" />
+                            <div>
+                                <h4>Figma</h4>
                             </div>
                         </article>
                     </div>

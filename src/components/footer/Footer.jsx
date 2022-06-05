@@ -31,13 +31,13 @@ const Footer = () => {
                 >
                     <FaGithub />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                <a href="https://instagram.com/rabbit.binary/" target="_blank" rel="noreferrer">
                     <FiInstagram />
                 </a>
             </div>
 
             <div className="footer__copyright">
-                <small>Vladimir Labat &copy; 2022</small>
+                <small>Vladimir Labat &copy; 2022 | Powered by React </small>
             </div>
         </footer>
     );
