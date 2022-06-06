@@ -56,7 +56,7 @@ const Experience = () => {
                             <DiReact className="experience__details-icon" />
                             <div>
                                 <h4>React</h4>
-                                <small className="text-light">Elementary</small>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">

@@ -8,23 +8,23 @@ const data = [
     {
         id: 1,
         image: IMG4,
-        title: "Lorem ipsum dolor sit amet consectetur adipis.",
-        github: "https://github.com",
-        demo: "https://dribbble.com",
+        title: "Animate Personal Portfolio. Theme Powered by React & CSS.",
+        github: "https://github.com/RabbitBinary/portfolio-react-3-2022",
+        demo: "",
     },
     {
         id: 2,
         image: IMG5,
-        title: "Lorem ipsum dolor sit amet consectetur adipis.",
-        github: "https://github.com",
-        demo: "https://dribbble.com",
+        title: "Restaurant One-Page Theme. Powered by React & CSS",
+        github: "https://github.com/RabbitBinary/restaurant-onepage-theme-1-react",
+        demo: "",
     },
     {
         id: 3,
         image: IMG6,
-        title: "Lorem ipsum dolor sit amet consectetur adipis.",
-        github: "https://github.com",
-        demo: "https://dribbble.com",
+        title: "ShopApp Food and Delivery. Powered by React, Redux & Firebase ",
+        github: "https://github.com/RabbitBinary/shopapp-react-redux-firebase",
+        demo: "",
     },
 ];
 
@@ -34,7 +34,7 @@ const Portfolio = () => {
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
             <div className="container portfolio__container">
-                {data.map(({ id, image, title, github, demo }) => {
+                {data.map(({ id, image, title, github}) => {
                     return (
                         <article key={id} className="portfolio__item">
                             <div className="portfolio__item-image">
@@ -50,14 +50,14 @@ const Portfolio = () => {
                                 >
                                     Github
                                 </a>
-                                <a
-                                    href={demo}
-                                    className="btn btn-primary"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                {/*<a
+                                  href={demo}
+                                  className="btn btn-primary"
+                                  target="_blank"
+                                  rel="noreferrer"
                                 >
                                     Live Demo
-                                </a>
+                                </a>*/}
                             </div>
                         </article>
                     );
